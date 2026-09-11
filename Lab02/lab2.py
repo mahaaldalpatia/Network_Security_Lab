@@ -22,7 +22,7 @@ hash2 = calculate_hash("sample.txt")
 print("Modified Hash:", hash2)
 
 if hash1 == hash2:
-    print("Hashes match. File has not been modified.")
+    print("Hashes match.")
 else:
-    print("Hashes do not match. File integrity has been compromised.")
+    print("Hashes do not match.")
 
