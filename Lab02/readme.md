@@ -23,11 +23,3 @@ SHA-256 (Secure Hash Algorithm 256-bit)
 
 SHA-256 is a cryptographic hash function that converts input data into a fixed-length 256-bit hash value.
 
-## Project Structure
-
-```text
-Lab02/
-│
-├── lab2.py
-├── sample.txt
-└── README.md
