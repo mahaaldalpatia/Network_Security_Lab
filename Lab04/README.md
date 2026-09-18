@@ -98,36 +98,4 @@ certificate.crt
 
 A self-signed X.509 digital certificate was successfully generated, its structure was inspected, and the certificate was verified using OpenSSL.
 
-## Security Note
 
-The `private.key` file contains the private key and should **not be shared**. Self-signed certificates are suitable for testing and lab environments but are not automatically trusted by normal browsers.
-
-## Viva Questions
-
-### 1. What is X.509?
-
-X.509 is a standard format for digital certificates.
-
-### 2. What is a self-signed certificate?
-
-A certificate signed using its own private key.
-
-### 3. What is the purpose of a private key?
-
-It is used for cryptographic operations such as signing.
-
-### 4. What is contained in an X.509 certificate?
-
-Identity information, public key, validity period, issuer, and digital signature.
-
-### 5. Why did we use SHA-256?
-
-SHA-256 is used as a secure hashing algorithm for the certificate signature.
-
-### 6. What is the purpose of certificate verification?
-
-To check whether the certificate can be validated against the specified trust source.
-
-### 7. Where are certificates used?
-
-They are commonly used in HTTPS/TLS and other secure communications.
